@@ -1,0 +1,113 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.root-container {
+    padding: 0.01em 0;
+    /* background-color: white; */
+    /* opacity: 0.8; */
+    background: rgba(240, 240, 238, 0.8)    
+}
+
+.header {
+    height: 400px;
+    background-image: url('pic/space.png');
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    margin: 3em 0;
+}
+
+@media (max-width:680px) {
+    .header {
+        height: 300px;
+    }
+}
+
+@media (min-width:1000px) {
+    .header {
+        height: 600px;
+    }
+}
+
+.header-contents {
+    padding-top: 20%;
+}
+
+.header-contents b {
+    font-family: 'Yu Mincho', serif;
+    color: white;
+    font-size: 7vw;
+}
+
+.header-contents i {
+    font-family: 'Tahoma', serif;
+    font-size: 3vw;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.row {
+    margin: 80px 0;
+}
+
+.btnbox {
+    text-align: center;
+    padding: 1em 0;
+    padding: auto 0;
+}
+
+.btn {
+    height: 60px;
+    width: 100%;
+}
+
+.btn:hover {
+    background-image: url('pic/space.png');
+    background-attachment: fixed;
+    color: white;
+}
+
+.btn b {
+    font-size: 18px;
+    /* color: rgba(27, 27, 24, 0.7); */
+}
+/* .btn b:hover{
+    color: white;
+} */
+
+.main-wrapper {
+    font-family: 'Yu Mincho', serif;
+}
+
+.main-container {
+    background-image: url('pic/space.png');
+    background-attachment: fixed;
+    margin: 90px 0;
+    padding: 80px 0;
+    border-radius: 10px;
+    color: white;
+}
+
+.main-content {
+    padding: 0 1em;
+}
+
+.main-content h2 {
+    margin-bottom: 1em;
+}
+#main3 p{
+    border-bottom: solid 1px white; 
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+
+#main3 img{
+    width: 100%;
+    margin: 2em 0;
+}
+
+#map {
+    width: 100%;
+}
